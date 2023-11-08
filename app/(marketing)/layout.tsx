@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { MainNav } from "@/components/main-nav"
 import { SiteFooter } from "@/components/site-footer"
+import { ModeToggle } from "@/components/mode-toggle"
 
 interface MarketingLayoutProps {
   children: React.ReactNode
@@ -26,9 +27,11 @@ export default async function MarketingLayout({
                 "px-4"
               )}
             >
-              Login
+              Watch the Demo
             </Link>
+            <ModeToggle />
           </nav>
+          
         </div>
       </header>
       <main className="flex-1">{children}</main>
