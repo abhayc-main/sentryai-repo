@@ -4,7 +4,7 @@ export const docsConfig: DocsConfig = {
   mainNav: [
     {
       title: "Documentation",
-      href: "/docs",
+      href: "/resources",
     },
     {
       title: "Guides",
@@ -17,118 +17,81 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Introduction",
-          href: "/docs",
+          href: "/resources",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Ideation",
       items: [
         {
           title: "Introduction",
-          href: "/docs/documentation",
+          href: "/resources/ideation",
         },
         {
-          title: "Contentlayer",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Project Abstract",
+          href: "/resources/ideation/project-abstract",
+        },
+        {
+          title: "Security Charecteristics Paper",
+          href: "/resources/ideation/shooter-paper",
+        },
+      ],
+    },
+    {
+      title: "AI Code Development",
+      items: [
+        {
+          title: "Introduction",
+          href: "/resources/ai-code-development",
         },
         {
           title: "Components",
-          href: "/docs/documentation/components",
+          href: "/resources/ai-code-development/components",
         },
         {
           title: "Code Blocks",
-          href: "/docs/documentation/code-blocks",
+          href: "/resources/ai-code-development/code-blocks",
         },
         {
           title: "Style Guide",
-          href: "/docs/documentation/style-guide",
-        },
-        {
-          title: "Search",
-          href: "/docs/in-progress",
-          disabled: true,
+          href: "/resources/ai-code-development/style-guide",
         },
       ],
     },
     {
-      title: "Blog",
+      title: "Hardware and Device",
       items: [
         {
           title: "Introduction",
-          href: "/docs/in-progress",
-          disabled: true,
+          href: "/resources/ai-code-development",
         },
         {
-          title: "Build your own",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Components",
+          href: "/resources/hardware-device/components",
         },
         {
-          title: "Writing Posts",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Code Blocks",
+          href: "/resources/hardware-device/code-blocks",
+        },
+        {
+          title: "Style Guide",
+          href: "/resources/hardware-device/style-guide",
         },
       ],
     },
     {
-      title: "Dashboard",
+      title: "Final Product",
       items: [
         {
-          title: "Introduction",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Demo",
+          href: "/resources/demo",
+          disabled: false,
         },
         {
-          title: "Layouts",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Server Components",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Authentication",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Database with Prisma",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "API Routes",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-      ],
-    },
-    {
-      title: "Marketing Site",
-      items: [
-        {
-          title: "Introduction",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "File Structure",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Tailwind CSS",
-          href: "/docs/in-progress",
-          disabled: true,
-        },
-        {
-          title: "Typography",
-          href: "/docs/in-progress",
-          disabled: true,
+          title: "Gallery",
+          href: "/resources/gallery",
+          disabled: false,
         },
       ],
     },
