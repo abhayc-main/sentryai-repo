@@ -1,0 +1,46 @@
+---
+title: Project Feedback Expansion
+description: Key points of feedback and action steps that we recieved from professors for project development
+---
+
+<Callout>
+- This is what the professors told us all summarized - note these are mostly ideas and things to look out for. Use discretion when taking this feedback.
+</Callout>
+
+The feedback centers around several key areas: licensing, detection mechanisms, privacy concerns, technological considerations, and validation of your technology. Let's expand on each of these points:
+
+### 1. Licensing and Code Compliance
+- **Double Check Licenses:** Ensure that all software components, like those from [CodeQL](https://codeql.github.com/), comply with your project's licensing requirements. For example, if using GPL libraries, understand their implications on your proprietary code.
+- **Compliance:** Regularly audit code for license compliance and compatibility, especially if mixing open source and proprietary code.
+
+### 2. Detection Mechanism: False Positives vs. False Negatives
+- **Abnormal Detection:** Develop robust algorithms to distinguish between normal and abnormal scenarios accurately. This includes tuning your system to balance false positives (non-threats identified as threats) and false negatives (missing actual threats).
+- **Data Sources:** Utilize diverse datasets, including police and TSA data, for training and refining your models.
+- **Expert Consultation:** Engage with law enforcement professionals and security experts to understand real-world scenarios and integrate their insights into your model training.
+
+### 3. Privacy and Ethical Considerations
+- **Children's Data:** Be particularly cautious with minors' data due to heightened privacy concerns.
+- **Hardware Security:** Implement measures to prevent theft or tampering of hardware.
+- **Data Handling:** Develop protocols for sensitive data handling, including misclassification risks (e.g., malware vs. non-malware).
+
+### 4. Technological Aspects and System Design
+- **Adversarial Systems:** Anticipate and prepare for adversarial attacks on your machine learning models.
+- **Email and Network Integration:** Consider integrating email alerts for critical detections and explore using MAC addresses for network-related anomaly detection.
+- **Balancing Alert Systems:** Implement a tiered alert system that escalates from low to high probability threats, avoiding unnecessary alerts for minor anomalies.
+
+### 5. Validation and Credibility
+- **DARPA Questions:** Address questions such as the Heilmeier Catechism for clarity and direction. These questions force you to articulate objectives, understand current limitations, and assess the impact and risks of your technology.
+- **Testing and Certification:** Consider third-party testing for credibility, such as fake weapons testing for your alert systems. Explore certifications that can validate your technology's reliability and effectiveness.
+- **Tracking and Security:** Implement tracking mechanisms (like GPS modules) for additional security and data integrity.
+
+### 6. Further Research and Development
+- **Explore Additional Factors:** Continuously research additional factors that can enhance detection accuracy.
+- **Engage with Academic Resources:** Utilize academic connections, such as consulting with professors, to gain insights and potential code contributions (e.g., for MAC address analysis).
+
+### 7. Future Prospects and Impact Assessment
+- **Potential Impact:** Assess the potential societal impact of your technology and how it can improve current practices.
+- **Cost and Timeline Evaluation:** Develop a realistic budget and timeline for your project, considering both development and implementation phases.
+
+### 8. Addressing Ethical and Social Implications
+- **Ethical Framework:** Develop a robust ethical framework to guide decision-making, especially concerning privacy and data security.
+- **Community Engagement:** Engage with the community and stakeholders to understand their concerns and incorporate their feedback into your system's development and deployment.

@@ -33,9 +33,18 @@ export const docsConfig: DocsConfig = {
           href: "/resources/ideation/project-abstract",
         },
         {
+          title: "Full System Design",
+          href: "/resources/ideation/idea-design",
+        },
+        {
+          title: "Idea Presentation",
+          href: "/resources/ideation/idea-presentation",
+        },
+        {
           title: "Security Charecteristics Paper",
           href: "/resources/ideation/shooter-paper",
         },
+        
       ],
     },
     {
@@ -46,16 +55,16 @@ export const docsConfig: DocsConfig = {
           href: "/resources/ai-code-development",
         },
         {
-          title: "Components",
-          href: "/resources/ai-code-development/components",
+          title: "Technical Design",
+          href: "/resources/ai-code-development/software-notes",
         },
         {
-          title: "Code Blocks",
-          href: "/resources/ai-code-development/code-blocks",
+          title: "Code: Deep Dive",
+          href: "/resources/ai-code-development/code-important",
         },
         {
-          title: "Style Guide",
-          href: "/resources/ai-code-development/style-guide",
+          title: "Datasets",
+          href: "/resources/ai-code-development/dataset",
         },
       ],
     },
@@ -64,15 +73,15 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Introduction",
-          href: "/resources/ai-code-development",
+          href: "/resources/hardware-device",
         },
         {
-          title: "Components",
-          href: "/resources/hardware-device/components",
+          title: "Hardware Notes",
+          href: "/resources/hardware-device/hardware-info",
         },
         {
           title: "Code Blocks",
-          href: "/resources/hardware-device/code-blocks",
+          href: "/resources/hardware-device/idea-presentation",
         },
         {
           title: "Style Guide",
@@ -85,15 +94,16 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Demo",
-          href: "/resources/demo",
-          disabled: false,
+          href: "/resources/final-product/demo",
         },
+        
         {
-          title: "Gallery",
-          href: "/resources/gallery",
+          title: "Feedback from Professors",
+          href: "/resources/final-product/professor-feedback",
           disabled: false,
         },
       ],
+
     },
   ],
 }

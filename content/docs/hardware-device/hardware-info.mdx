@@ -1,0 +1,69 @@
+---
+title: Hardware Notes
+description: Rough notes on Hardware, advice, questions, ideas etc.
+---
+
+# Questions and Advice for SentryAI Device
+
+## Questions
+
+- What if someone jumps through windows?
+- Blurriness, covering hoods, image technicalities?
+- Potential errors through USB camera and mic connection?
+- Image compression concerns.
+- Identifying sounds similar to gunshots.
+- USB C range extender feasibility?
+- Power over Ethernet capabilities?
+
+## Advice
+
+- Implement the system throughout the entire building, not just in specific areas.
+- Focus on both facial and threat recognition.
+- Ensure resiliency through minimal moving parts.
+- Be cautious of potential errors through USB connections.
+- Prioritize obtaining raw, uncompressed images.
+- Use Raspberry PI supported camera modules.
+- Employ a trained model for threat detection.
+- Do not store any data, ensuring privacy.
+- Dispose of audio capture after a certain time (e.g., a day).
+- Avoid being an attendance tracker; names are not necessary, just images.
+- Update the model annually using reference images without storing them.
+- Ensure privacy by design, not just by default.
+- Consider Air Gapping Concept for enhanced security.
+- Implement License Plate Recorders (LPRs).
+- Explore day and night timer versions for cameras (infrared and regular).
+- Use 2FA with Bluetooth and Wifi alongside facial recognition.
+
+## Design
+
+- Use templates from Amazon for fake security camera modules to save costs.
+
+## Microphone
+
+- Avoid obstructions near microphones.
+- Use condenser mics for long-range audio capture.
+- Include two microphones, each with a 180-degree range.
+- Capture raw audio data without sound filters.
+- Ensure high fidelity and bitrate for audio capture.
+- Utilize stereoscopic mics for directional audio capture.
+- Reference "ShotSpotter" published paper for insights.
+- Distinguish between various sounds, including gunshots and similar noises.
+
+## Camera
+
+- Consider using ESP32CAM and USB repeater 4k webcams.
+- Reference Raspberry Pi Documentation for camera options.
+- Explore various camera models available on Amazon.
+
+## Motherboard
+
+- Options include NanoITX, NUKs Intel AMD, and Nanocontroller.
+- Consider using USB Accelerator | Coral for machine learning acceleration.
+- Explore Raspberry Pi 4 Model B options.
+
+## Miscellaneous
+
+- Ensure a robust battery backup system.
+- Maintain a constant Ethernet connection with backup.
+- Emphasize security and edge network connectivity.
+

@@ -1,0 +1,156 @@
+---
+title: Deep Dive into the Code
+description: Advanced code blocks with highlighting, file names and more.
+---
+
+The code blocks on the documentation site and the blog are powered by [rehype-pretty-code](https://github.com/atomiks/rehype-pretty-code). The syntax highlighting is done using [shiki](https://github.com/shikijs/shiki).
+
+It has the following features:
+
+1. Beautiful code blocks with syntax highlighting.
+2. Support for VS Code themes.
+3. Works with hundreds of languages.
+4. Line and word highlighting.
+5. Support for line numbers.
+6. Show code block titles using meta strings.
+
+<Callout>
+
+These are important snippets for conceptual understanding, to see more go to the github.
+</Callout>
+
+## Visual
+
+This section initializes the facial recognition process. It includes loading pre-trained face encodings, initializing the Haar Cascade classifier for face detection, and setting up the webcam feed.
+
+ ```python showLineNumbers title="main.py - loader code" 
+import os
+import pickle
+import numpy as np
+import cv2
+import face_recognition
+from datetime import datetime
+
+# Load the encoding file
+print("Loading Encode File ...")
+file = open('EncodeFile.p', 'rb')
+encodeListKnownWithIds = pickle.load(file)
+file.close()
+encodeListKnown, studentIds = encodeListKnownWithIds
+print("Encode File Loaded")
+
+# Initialize the Haar Cascade classifier for face detection
+face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
+
+cap = cv2.VideoCapture(0)
+cap.set(3, 1920)
+cap.set(4, 1080)
+```
+
+Here, the code continually reads frames from the webcam, processes each frame to detect faces, and performs face recognition. If a face is recognized as known (verified), it's marked and logged; otherwise, it's flagged as unauthorized.
+
+```python showLineNumbers title="main.py - main inference code" 
+
+while True:
+    success, img = cap.read()
+
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    # Perform face detection using the Haar Cascade classifier
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+
+    for (x, y, w, h) in faces:
+        # Crop the detected face region
+        face_img = img[y:y+h, x:x+w]
+        face_img_rgb = cv2.cvtColor(face_img, cv2.COLOR_BGR2RGB)
+
+        # Perform face recognition using face_recognition library
+        face_encodings = face_recognition.face_encodings(face_img_rgb)
+
+        if len(face_encodings) > 0:
+            # Compare face encodings with known encodings
+            face_encoding = face_encodings[0]
+            matches = face_recognition.compare_faces(encodeListKnown, face_encoding)
+            face_distances = face_recognition.face_distance(encodeListKnown, face_encoding)
+            match_index = np.argmin(face_distances)
+
+            if matches[match_index]:
+                # Detected face is a known face
+                cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                cv2.putText(img, "Verified", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+
+                # Retrieve the person ID and update the last attendance time in Firebase
+                person_id = studentIds[match_index]
+                current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                person_ref = db.collection("Schools").document(new_school_id).collection("students").document(person_id)
+                person_ref.update({"last_attendance_time": current_time})
+
+            else:
+                # Detected face is an unauthorized face
+                cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
+                cv2.putText(img, "Unauthorized", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+```
+This function finds and encodes faces from a given set of images, essential for building the database of known faces.
+```python showLineNumbers title="encode-generator.py - face encodings code" 
+def findEncodings(imagesList):
+    encodeList = []
+    for img, imgPath in zip(imagesList, imgPaths):
+        try:
+            if img is None:
+                print(f"Empty image at path: {imgPath}. Skipping...")
+                continue
+            
+            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+            faceEncodings = face_recognition.face_encodings(img)
+            if len(faceEncodings) > 0:
+                encode = faceEncodings[0]
+                encodeList.append(encode)
+            else:
+                print(f"No face found in image: {imgPath}. Skipping...")
+        except Exception as e:
+            print(f"Error processing image: {imgPath}\n{str(e)}")
+            continue
+    return encodeList
+```
+This script focuses on adding new individuals (students) to the recognition system, including generating unique IDs and storing relevant information like name and grade.
+```python showLineNumbers title="data.py" 
+def add_new_person(school_id, name, grade):
+    person_id = str(uuid.uuid4())  # Generate a random person ID
+    person_data = {
+        "name": name,
+        "grade": grade,
+        "last_attendance_time": ""
+    }
+    school_ref = db.collection("Schools").document(school_id)
+    school_ref.collection("students").document(person_id).set(person_data)
+    print("New person added successfully.")
+```
+This code initializes the environment for sound analysis, particularly for gunshot detection. It includes loading the YAMNet model, a pre-trained model for sound event recognition.
+
+## Auditory
+ ```python showLineNumbers title="main.py - loader code" 
+import tensorflow as tf
+import tensorflow_hub as hub
+import numpy as np
+import sounddevice as sd
+from scipy.io import wavfile
+
+# Load the YAMNet model
+model = hub.load('https://tfhub.dev/google/yamnet/1')
+class_names = class_names_from_csv(model.class_map_path().numpy())
+```
+
+```python showLineNumbers title="main.py - main inference code" 
+def detect_gunshots(waveform):
+    sample_rate = 16000  # Desired sample rate for YAMNet model
+    sample_rate, waveform = ensure_sample_rate(sample_rate, waveform)
+    waveform = waveform / np.max(np.abs(waveform))  # Normalize waveform
+
+    scores, embeddings, spectrogram = model(waveform)
+    scores_np = scores.numpy()
+    infered_class = class_names[scores_np.mean(axis=0).argmax()]
+
+    return infered_class
+```
+The core functionality for detecting specific sounds, such as gunshots, is illustrated here. It involves processing sound data and using the YAMNet model to identify if the sounds match any known classes, like gunshots.
+
