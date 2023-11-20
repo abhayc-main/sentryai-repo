@@ -80,11 +80,11 @@ export const docsConfig: DocsConfig = {
           href: "/resources/hardware-device/hardware-info",
         },
         {
-          title: "Code Blocks",
+          title: "Model Diagram",
           href: "/resources/hardware-device/idea-presentation",
         },
         {
-          title: "Style Guide",
+          title: "Model Render",
           href: "/resources/hardware-device/style-guide",
         },
       ],
