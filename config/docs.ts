@@ -76,16 +76,12 @@ export const docsConfig: DocsConfig = {
           href: "/resources/hardware-device",
         },
         {
-          title: "Hardware Notes",
-          href: "/resources/hardware-device/hardware-info",
-        },
-        {
           title: "Model Diagram",
-          href: "/resources/hardware-device/idea-presentation",
+          href: "/resources/hardware-device/hardware-design",
         },
         {
           title: "Model Render",
-          href: "/resources/hardware-device/style-guide",
+          href: "/resources/hardware-device/hardware-render",
         },
       ],
     },
