@@ -1,0 +1,1901 @@
+{
+	"schemaVersion": 1,
+	"tags": [
+		"code",
+		"writing",
+		"translation",
+		"typescript",
+		"programming",
+		"prompt",
+		"Writing",
+		"productivity",
+		"creative",
+		"academic",
+		"game",
+		"research",
+		"software development",
+		"User Experience",
+		"Designer",
+		"Documentation",
+		"software-development",
+		"design",
+		"conversation",
+		"proofreading",
+		"react",
+		"it",
+		"frontend"
+	],
+	"agents": [
+		{
+			"author": "canisminor1990",
+			"createAt": "2024-01-27",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "steam-agent",
+			"meta": {
+				"avatar": "https://steam.chat-plugin.lobehub.com/logo.webp",
+				"description": "Steam game expert consultant, popular game recommendations and in-depth game analysis",
+				"tags": ["steam", "game recommendations", "game reviews"],
+				"title": "Steam Game Reviews"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "chef",
+			"meta": {
+				"avatar": "👨‍🍳",
+				"description": "AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.",
+				"tags": [
+					"cooking",
+					"recipe",
+					"culinary",
+					"techniques",
+					"meal-planning"
+				],
+				"title": "Culinary AI Mentor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "import-and-export-advisor",
+			"meta": {
+				"avatar": "🌍",
+				"description": "AI Import and Export Advisor: Providing guidance on global trade, customs regulations, documentation, trade agreements, and risk management.",
+				"tags": ["import-export", "trade", "consulting"],
+				"title": "AI Import/Export Advisor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "openapi-generator",
+			"meta": {
+				"avatar": "🐸",
+				"description": "Parse interface documents and generate openapi.json required by ChatGPT Tool",
+				"tags": [
+					"automation tool",
+					"interface documents",
+					"workflow",
+					"openapi"
+				],
+				"title": "OpenAPI Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Justin3go",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/Justin3go",
+			"identifier": "shields-io",
+			"meta": {
+				"avatar": "📛",
+				"description": "Specializes in using `shields.io` to generate stylish badges",
+				"tags": [
+					"badge generator",
+					"styling",
+					"ui design",
+					"markdown",
+					"technology stack",
+					"shields-io"
+				],
+				"title": "ShieldsIO Badge Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "singer",
+			"meta": {
+				"avatar": "🎵",
+				"description": "AI Singer/Songwriter Assistant: Empowering musicians with creative guidance and feedback.",
+				"tags": [
+					"ai-assistant",
+					"singer",
+					"songwriter",
+					"music",
+					"creative-process"
+				],
+				"title": "Songwriting Mentor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-26",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "tax-bot",
+			"meta": {
+				"avatar": "📊",
+				"description": "AI Tax Consultant Chatbot: Providing general tax information and guidance worldwide.",
+				"tags": [
+					"tax-consulting",
+					"chatbot",
+					"information",
+					"guidance",
+					"tax-concepts"
+				],
+				"title": "TaxBot"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "RayGicEFL",
+			"createAt": "2024-01-25",
+			"homepage": "https://github.com/RayGicEFL",
+			"identifier": "art-toy-designer",
+			"meta": {
+				"avatar": "https://thumbs2.imgbox.com/4c/db/4tG11pyy_t.png",
+				"description": "Specializes in designing unique and charming figures according to user requirements.",
+				"tags": ["design", "figure design"],
+				"title": "Figure Designer"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-25",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "react-native",
+			"meta": {
+				"avatar": "👩‍💻",
+				"description": "React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform development. Provides guidance on setup, best practices, troubleshooting, responsive design, marketing integration, QR code functionality, and app submission.",
+				"tags": [
+					"coding",
+					"react-native",
+					"type-script",
+					"expo",
+					"development"
+				],
+				"title": "React Native Coding Guide"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "muxinxy",
+			"createAt": "2024-01-25",
+			"homepage": "https://github.com/muxinxy",
+			"identifier": "summary-assistant",
+			"meta": {
+				"avatar": "📚",
+				"description": "Proficient at accurately extracting key information and summarizing concisely",
+				"tags": [
+					"text summarization",
+					"information extraction",
+					"concise and clear",
+					"accuracy"
+				],
+				"title": "Text Summarization Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "AIConductor",
+			"createAt": "2024-01-24",
+			"homepage": "https://github.com/AIConductor",
+			"identifier": "intention-resonates-gpt",
+			"meta": {
+				"avatar": "https://images2.imgbox.com/15/8c/9aVHrtwP_o.jpeg",
+				"description": "An AI focused on deeply understanding user needs, accurately capturing user intent and requirements through continuous intent alignment, and providing the most suitable solutions.",
+				"tags": ["conversation", "deep understanding"],
+				"title": "Intent Resonance GPT"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "daniel-jojo",
+			"createAt": "2024-01-23",
+			"homepage": "https://github.com/daniel-jojo",
+			"identifier": "tech-lawyer",
+			"meta": {
+				"avatar": "👩‍⚖️",
+				"description": "In-house legal counsel for a tech startup, offering clear, practical legal advice to support the startup's growth and protect its interests.",
+				"tags": [
+					"intellectual-property-law",
+					"data-privacy-compliance",
+					"contract-negotiation",
+					"tech-startup-legal-strategy",
+					"employment-law-guidance"
+				],
+				"title": "Startup Tech Lawyer"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "guluahljj",
+			"createAt": "2024-01-22",
+			"homepage": "https://github.com/guluahljj",
+			"identifier": "shop",
+			"meta": {
+				"avatar": "🛍️",
+				"description": "Shopping assistant, specializing in product search, price comparison, and providing purchase links",
+				"tags": [
+					"Shopping Assistant",
+					"Product Search",
+					"Price Comparison",
+					"Purchase Advice",
+					"Customer Consultation",
+					"agulu"
+				],
+				"title": "Shopping Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "accounting",
+			"meta": {
+				"avatar": "💼",
+				"description": "Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.",
+				"tags": [
+					"accounting",
+					"financial-management",
+					"tax-planning",
+					"budgeting"
+				],
+				"title": "Accounting Expert Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "business-guru",
+			"meta": {
+				"avatar": "📊",
+				"description": "Business Consultant: Providing comprehensive business support and expertise worldwide.Capabilities: Business strategy, market research, financial analysis, operations improvement, marketing and sales strategies, organizational development, talent management.Instructions: Define scope, gather business knowledge, develop industry expertise, implement market research and analysis, enable financial analysis and forecasting, facilitate operations and process improvement, provide marketing and sales strategies, support organizational development and talent management, test and refine, ensure data privacy and security.",
+				"tags": ["business-consultant"],
+				"title": "Business Guru"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "guluahljj",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/guluahljj",
+			"identifier": "diy",
+			"meta": {
+				"avatar": "🔧",
+				"description": "DIY project assistant, providing detailed guidance, programming support, and personalized customization",
+				"tags": ["diy", "guide", "project", "programming", "assembly"],
+				"title": "DIY Guide Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "finnance",
+			"meta": {
+				"avatar": "💼",
+				"description": "Finance Expert with Global Financial Expertise, Multilingual Communication, Financial Analysis and Reporting, Investment Planning and Portfolio Management, Financial Planning and Retirement Strategies, and Risk Management and Insurance capabilities.",
+				"tags": ["inancial-management"],
+				"title": "Financial Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "sheepbox8646",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/sheepbox8646",
+			"identifier": "ielts-mentor",
+			"meta": {
+				"avatar": "🧑‍🏫",
+				"description": "Specializes in IELTS exam assessment and guidance",
+				"tags": ["IELTS exam", "assessment", "guidance", "examiner"],
+				"title": "IELTS Tutor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "guluahljj",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/guluahljj",
+			"identifier": "nahida",
+			"meta": {
+				"avatar": "😘",
+				"description": "Naxida, the grass deity of the Shambhala, governs natural growth and wisdom. She can manipulate plants, heal allies, and guide lost souls. She has a gentle and wise personality, and her language is full of poetry.",
+				"tags": [
+					"role-playing",
+					"game",
+					"literature",
+					"translation",
+					"creative",
+					"agulu"
+				],
+				"title": "Grass Deity Naxida"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MYSeaIT",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/MYSeaIT",
+			"identifier": "teacher",
+			"meta": {
+				"avatar": "🧑‍🏫",
+				"description": "English Teacher: Expert in Exam Preparation and Language Instruction",
+				"tags": ["teaching", "languagelearning", "exams"],
+				"title": "EOI Exam Preparation Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "REXY-STUDIO",
+			"createAt": "2024-01-21",
+			"homepage": "https://github.com/REXY-STUDIO",
+			"identifier": "zh-jp-translate-expert",
+			"meta": {
+				"avatar": "🇨🇳🇯🇵",
+				"description": "Proficient in Chinese and Japanese, providing accurate Chinese to Japanese and Japanese to Chinese translations.",
+				"tags": [
+					"translation",
+					"Chinese-Japanese translation",
+					"language communication"
+				],
+				"title": "Chinese-Japanese Bilingual Translation Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "110rever",
+			"createAt": "2024-01-19",
+			"homepage": "https://github.com/110rever",
+			"identifier": "prompt-gpt",
+			"meta": {
+				"avatar": "😍",
+				"description": "A customized GPT model named PromptGPT. My aim is to generate high-performance prompts based on the topics input by users.",
+				"tags": [
+					"generation",
+					"artificial-intelligence",
+					"interaction",
+					"customized-experience",
+					"feedback-mechanism",
+					"best-practices",
+					"step-by-step-guidance",
+					"language-flexibility",
+					"boundaries"
+				],
+				"title": "PromptGPT"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "110rever",
+			"createAt": "2024-01-19",
+			"homepage": "https://github.com/110rever",
+			"identifier": "tech-explorer-ai",
+			"meta": {
+				"avatar": "🔍",
+				"description": "Technology exploration AI capability: - Conduct comprehensive technical research - Provide predictive insights based on statistical data and trend analysis - Optimize research methodology - Maintain data accuracy and completeness - Infer limitations in the absence of complete data: - Only answer questions related to technology - Do not provide general purchasing advice - Provide product technology discussion through step-by-step guidance User interaction: - Provide clear and concise dialogue - Provide multilingual options Support objective: To provide accurate information and analyze predictions to deepen the understanding of technology among users.",
+				"tags": [
+					"technical-research",
+					"data-analysis",
+					"research-methods",
+					"data-accuracy",
+					"inference",
+					"user-interaction"
+				],
+				"title": "Tech Explorer AI"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Wutpeach",
+			"createAt": "2024-01-18",
+			"homepage": "https://github.com/Wutpeach",
+			"identifier": "ae-script-development",
+			"meta": {
+				"avatar": "🧏",
+				"description": "An expert in AE script development, proficient in JavaScript programming, understanding of AE software principles, capable of debugging and optimizing scripts.",
+				"tags": [
+					"script development",
+					"programmer",
+					"adobe-after-effects",
+					"java-script",
+					"algorithm design",
+					"debugging",
+					"optimization",
+					"coding standards",
+					"user communication",
+					"script usage instructions"
+				],
+				"title": "AE Script Development Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "110rever",
+			"createAt": "2024-01-18",
+			"homepage": "https://github.com/110rever",
+			"identifier": "code-companion",
+			"meta": {
+				"avatar": "👨‍💻",
+				"description": "The best companion for programmers",
+				"tags": ["code", "dev", "program"],
+				"title": "Code Companion"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Wutpeach",
+			"createAt": "2024-01-16",
+			"homepage": "https://github.com/Wutpeach",
+			"identifier": "unreal-engine-development-engineer",
+			"meta": {
+				"avatar": "🥸",
+				"description": "Unreal Engine expert, proficient in C++ programming, rendering, memory, thread and other pipeline architectures, UE application on Android platform, comprehensive artistic cognition, familiar with Shader writing, proficient in 3D art asset production process and tools.",
+				"tags": [
+					"Unreal Engine",
+					"C++ programming",
+					"Rendering pipeline",
+					"Memory management",
+					"Thread architecture"
+				],
+				"title": "William"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "HerIsDia",
+			"createAt": "2024-01-15",
+			"homepage": "https://github.com/HerIsDia",
+			"identifier": "chad",
+			"meta": {
+				"avatar": "🤡",
+				"description": "Just chad",
+				"tags": ["humor", "funny"],
+				"title": "Chad"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Soyeb",
+			"createAt": "2024-01-15",
+			"homepage": "https://github.com/sekhsoyebali",
+			"identifier": "seo-optimized-blog",
+			"meta": {
+				"avatar": "https://chat.droidsize.com/_next/image?url=https%3A%2F%2Fregistry.npmmirror.com%2F%40lobehub%2Fassets-emoji%2F1.3.0%2Ffiles%2Fassets%2Fwriting-hand.webp&w=96&q=75",
+				"tags": [
+					"blog",
+					"seo",
+					"writing",
+					"article writing",
+					"seo optimized blog",
+					"content writing",
+					"100% unique blog",
+					"human written blog"
+				],
+				"title": "SEO Optimized Blog",
+				"description": "Human Written | 100% Unique | An experienced SEO expert and content writer who specializes in creating 100% unique, human-written blog posts tailored to user requirements."
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "fmaxyou",
+			"createAt": "2024-01-11",
+			"homepage": "https://github.com/fmaxyou",
+			"identifier": "english-teacher",
+			"meta": {
+				"avatar": "📚",
+				"description": "Specializes in explaining and memorization techniques for English words and phrases",
+				"tags": ["English teaching", "explanation", "memorization techniques"],
+				"title": "English Analyst"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "amitalokbera",
+			"createAt": "2024-01-11",
+			"homepage": "https://github.com/amitalokbera",
+			"identifier": "life-decision-advisor",
+			"meta": {
+				"avatar": "🧘‍♂️",
+				"description": "A Life Decision Advisor is a virtual guide designed to assist users in making informed life decisions",
+				"tags": ["prompt"],
+				"title": "Life Decision Advisor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "McKinleyLu",
+			"createAt": "2024-01-10",
+			"homepage": "https://github.com/McKinleyLu",
+			"identifier": "cs-research-paper",
+			"meta": {
+				"avatar": "🏛️",
+				"description": "Specializing in proofreading master's degree theses",
+				"tags": ["proofreading", "paper", "education", "computer science"],
+				"title": "Computer Science Paper Proofreading"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "mushan0x0",
+			"createAt": "2024-01-09",
+			"homepage": "https://github.com/mushan0x0",
+			"identifier": "emoji-generate",
+			"meta": {
+				"avatar": "😊",
+				"description": "Generate emoji expressions based on content",
+				"tags": ["expression generation", "emoji", "creative"],
+				"title": "Emoji Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Ajasra",
+			"createAt": "2024-01-08",
+			"homepage": "https://github.com/Ajasra",
+			"identifier": "personal-growth-coach",
+			"meta": {
+				"avatar": "🧑‍🏫",
+				"description": "As an AI Personal Growth Coach, your primary objective is to assist users in their journey of self-improvement and personal development",
+				"tags": [
+					"personal-growth",
+					"coaching",
+					"self-improvement",
+					"goal-setting",
+					"motivation"
+				],
+				"title": "Personal Growth Coach"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2024-01-05",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "kpi-hero",
+			"meta": {
+				"avatar": "🦸",
+				"description": "Specializes in writing performance evaluation reports and year-end summaries",
+				"tags": [
+					"performance evaluation",
+					"report writing",
+					"data analysis",
+					"professional insights",
+					"OKR",
+					"KPI"
+				],
+				"title": "Performance Evaluation Superhero"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Justin3go",
+			"createAt": "2024-01-05",
+			"homepage": "https://github.com/Justin3go",
+			"identifier": "svg-flowchart-explanation-assistant",
+			"meta": {
+				"avatar": "🌟",
+				"description": "Explain SVG flowcharts by inputting SVG source code and interpreting the flowchart.",
+				"tags": [
+					"flowchart explanation",
+					"technical documentation writing",
+					"business knowledge"
+				],
+				"title": "SVG Flowchart Explanation Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "CaoYunzhou",
+			"createAt": "2024-01-05",
+			"homepage": "https://github.com/CaoYunzhou",
+			"identifier": "write-report-assistant-development",
+			"meta": {
+				"avatar": "📓",
+				"description": "Weekly report generation assistant",
+				"tags": ["weekly report", "daily report", "writing", "summary"],
+				"title": "Weekly Report Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2024-01-03",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "react-three-3-d-expert",
+			"meta": {
+				"avatar": "🎥",
+				"description": "Proficient in React, Three.js, React Three Fiber (r3f), Drei, and other related libraries, capable of creating advanced 3D visual effects and animations in web applications.",
+				"tags": [
+					"3D animation",
+					"react",
+					"three-js",
+					"web design",
+					"animation"
+				],
+				"title": "3D Animation Engineer"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "cm2457618290",
+			"createAt": "2024-01-02",
+			"homepage": "https://github.com/cm2457618290",
+			"identifier": "amazon",
+			"meta": {
+				"avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+				"description": "Provide product keywords or product links to automatically write titles and product introductions",
+				"tags": ["assistant"],
+				"title": "Amazon Title Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "aitorroma",
+			"createAt": "2024-01-02",
+			"homepage": "https://github.com/aitorroma",
+			"identifier": "generador-examenes",
+			"meta": {
+				"avatar": "📚",
+				"description": "I am a skills summary assistant and cannot conduct interactive exams. However, I can help you summarize your skills and knowledge in a clear and concise format.",
+				"tags": ["exam", "learning", "statistics"],
+				"title": "Exam Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ljr1314",
+			"createAt": "2024-01-02",
+			"homepage": "https://github.com/ljr1314",
+			"identifier": "ljrwwjl-development",
+			"meta": {
+				"avatar": "🎓",
+				"description": "A friendly and helpful mentor who customizes explanations and examples based on the user's learning level and interests to ensure clarity. Ask 4 questions, then provide explanations, examples, and analogies, and ensure understanding through questioning. Finally, have the user explain the topic in their own words and provide an example. End on a positive note and encourage further learning.",
+				"tags": [
+					"mentor",
+					"education",
+					"explanation",
+					"communication",
+					"learning"
+				],
+				"title": "Teaching Mentor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "richards199999",
+			"createAt": "2023-12-30",
+			"homepage": "https://github.com/richards199999",
+			"identifier": "prompt-composition",
+			"meta": {
+				"avatar": "🎨",
+				"description": "Write perfect and beautiful prompts for Midjourney. (Including V6!)",
+				"tags": ["midjourney", "prompt", "ai"],
+				"title": "MidjourneyGPT"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "richards199999",
+			"createAt": "2023-12-30",
+			"homepage": "https://github.com/richards199999",
+			"identifier": "toefl-writing-tutor",
+			"meta": {
+				"avatar": "📝",
+				"description": "Your TOEFL Writing assistant and evaluator, specializing in feedback and guidance.",
+				"tags": ["writing", "study"],
+				"title": "TOEFL Writing Tutor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "amitalokbera",
+			"createAt": "2023-12-27",
+			"homepage": "https://github.com/amitalokbera",
+			"identifier": "deployment-agent",
+			"meta": {
+				"avatar": "🚢",
+				"description": "An AI Deployment Specialist is an expert in managing the full deployment lifecycle of software applications, particularly web applications.",
+				"tags": ["code", "deployment", "software"],
+				"title": "Deployment Specialist Agent"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "caoyang2002",
+			"createAt": "2023-12-27",
+			"homepage": "https://github.com/caoyang2002",
+			"identifier": "thesis-overview",
+			"meta": {
+				"avatar": "🗿",
+				"description": "Specializing in brief thesis and art criticism",
+				"tags": ["art", "thesis", "critique"],
+				"title": "Overview of Art Thesis Experts"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "doresu",
+			"createAt": "2023-12-27",
+			"homepage": "https://github.com/doresu",
+			"identifier": "to-local-english",
+			"meta": {
+				"avatar": "👱",
+				"description": "Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English",
+				"tags": ["translation", "editing", "writing", "translator"],
+				"title": "American English Transcreation Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Feliks151450",
+			"createAt": "2023-12-26",
+			"homepage": "https://github.com/Feliks151450",
+			"identifier": "academic-paragraph-refiner",
+			"meta": {
+				"avatar": "📝",
+				"description": "Highly skilled in advanced research proofreading and language editing, specializing in multiple research fields and proficient in academic English.",
+				"tags": ["proofreading", "writing", "research"],
+				"title": "Academic Proofreading Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "kamaravichow",
+			"createAt": "2023-12-25",
+			"homepage": "https://github.com/kamaravichow",
+			"identifier": "flutter-dev",
+			"meta": {
+				"avatar": "📱",
+				"description": "A developer expert in Flutter framework and Dart programming language.",
+				"tags": ["flutter", "development", "dart", "programming", "widgets"],
+				"title": "Flutter Maestro"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "alissonryan",
+			"createAt": "2023-12-20",
+			"homepage": "https://github.com/alissonryan",
+			"identifier": "facebook-ads-expert",
+			"meta": {
+				"avatar": "🤹‍♀️",
+				"description": "Create a Facebook Ads with a expert",
+				"tags": ["copywriting", "facebook-ads", "lead-generation"],
+				"title": "Facebook Ads Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ccdanpian",
+			"createAt": "2023-12-19",
+			"homepage": "https://github.com/ccdanpian",
+			"identifier": "dream-painter",
+			"meta": {
+				"avatar": "😴",
+				"description": "A dream artist who can bring your dreams into reality.",
+				"tags": ["txt-2-img", "painter"],
+				"title": "Dream Painter"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ccdanpian",
+			"createAt": "2023-12-19",
+			"homepage": "https://github.com/ccdanpian",
+			"identifier": "news-hub",
+			"meta": {
+				"avatar": "🗞️",
+				"description": "News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis.",
+				"tags": ["news", "search", "helper"],
+				"title": "News Hub"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ccsen",
+			"createAt": "2023-12-19",
+			"homepage": "https://github.com/ccsen",
+			"identifier": "research-assistant",
+			"meta": {
+				"avatar": "🔬",
+				"description": "Capable of answering questions, conducting research, drafting content, and more, utilizing scientific research papers.",
+				"tags": [
+					"research-assistant",
+					"literature-retrieval",
+					"writing",
+					"scientific-research",
+					"citation"
+				],
+				"title": "Research Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ccdanpian",
+			"createAt": "2023-12-19",
+			"homepage": "https://github.com/ccdanpian",
+			"identifier": "travel-assistant",
+			"meta": {
+				"avatar": "🥾",
+				"description": "An experienced outdoor hiking and adventure expert who creates travel plans based on user requirements.",
+				"tags": ["outdoor", "hiking"],
+				"title": "Travel Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "almaziphone",
+			"createAt": "2023-12-16",
+			"homepage": "https://github.com/almaziphone",
+			"identifier": "congratulations-with-smileys",
+			"meta": {
+				"avatar": "🎁",
+				"description": "Compose a beautiful and brief greeting with emojis",
+				"tags": ["greeting", "celebration", "kind"],
+				"title": "Holiday Greetings"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ccsen",
+			"createAt": "2023-12-16",
+			"homepage": "https://github.com/ccsen",
+			"identifier": "estate-agency",
+			"meta": {
+				"avatar": "🏚️",
+				"description": "Professional real estate agent expert, proficient in property consultation and management.",
+				"tags": [
+					"real-estate",
+					"real-estate-agent",
+					"knowledge-expert",
+					"property-appraisal",
+					"buying-a-house",
+					"property-management"
+				],
+				"title": "Real Estate Agent"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "SuperLande",
+			"createAt": "2023-12-16",
+			"homepage": "https://github.com/SuperLande",
+			"identifier": "yundaodev-1",
+			"meta": {
+				"avatar": "👨‍🎓",
+				"description": "A Chinese criminal law expert who has been engaged in criminal defense practice for many years and understands the theory of criminal law and criminal procedure law",
+				"tags": ["Criminal Defense"],
+				"title": "Criminal Defense Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "thelapyae",
+			"createAt": "2023-12-15",
+			"homepage": "https://github.com/thelapyae",
+			"identifier": "book-summary-agent",
+			"meta": {
+				"avatar": "📚",
+				"description": "Specializes in generating concise book summaries with actionable takeaways.",
+				"tags": [
+					"book-summaries",
+					"ai-assistant",
+					"bullet-point-summaries",
+					"actionable-takeaways"
+				],
+				"title": "Short Book"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Sheldon23357",
+			"createAt": "2023-12-15",
+			"homepage": "https://github.com/Sheldon23357",
+			"identifier": "detective-game-assistant",
+			"meta": {
+				"avatar": "🕵️",
+				"description": "A game to solve a murder case provided by the user",
+				"tags": ["detective", "game", "reasoning", "puzzle", "investigation"],
+				"title": "Case Solver"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Sheldon23357",
+			"createAt": "2023-12-15",
+			"homepage": "https://github.com/Sheldon23357",
+			"identifier": "detective-novelist",
+			"meta": {
+				"avatar": "🏴‍☠️",
+				"description": "Specializes in creating murder mystery stories in the style of red herring. ",
+				"tags": ["detective", "game", "reasoning", "puzzle", "investigation"],
+				"title": "Case Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "nagaame",
+			"createAt": "2023-12-15",
+			"homepage": "https://github.com/nagaame",
+			"identifier": "rust-assistant",
+			"meta": {
+				"avatar": "🦀",
+				"description": "An expert assistant for learning Rust programming",
+				"tags": [
+					"rust learning",
+					"programming",
+					"teaching",
+					"skills",
+					"resources"
+				],
+				"title": "Rust Programming Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "MakeTooRRSS",
+			"createAt": "2023-12-14",
+			"homepage": "https://github.com/MakeTooRRSS",
+			"identifier": "community-manager",
+			"meta": {
+				"avatar": "https://cdn-icons-png.flaticon.com/512/2386/2386175.png",
+				"description": "Social Media Community Manager who will help you create authentic, persuasive posts that call for action. She will help you to create relevant quadrants with emojis and hashtags.",
+				"tags": ["community-manager", "social-media", "publications"],
+				"title": "Community Manager"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ShinChven",
+			"createAt": "2023-12-14",
+			"homepage": "https://github.com/ShinChven",
+			"identifier": "stable-diffusion",
+			"meta": {
+				"avatar": "🦄",
+				"description": "I help create precise prompts for Stable Diffusion. You can tell me what you want to imagine, or just send me an image to describe.",
+				"tags": ["stable-diffusion"],
+				"title": "Stable Diffusion Prompts Crafter"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ghyghoo8",
+			"createAt": "2023-12-13",
+			"homepage": "https://github.com/ghyghoo8",
+			"identifier": "dream-psychoanalyst",
+			"meta": {
+				"avatar": "😈",
+				"description": "Input a dream and I will help you analyze it.",
+				"tags": ["dream", "master", "think"],
+				"title": "Dream Analyst"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "ghyghoo8",
+			"createAt": "2023-12-13",
+			"homepage": "https://github.com/ghyghoo8",
+			"identifier": "payroll-game",
+			"meta": {
+				"avatar": "💰",
+				"description": "In this salary negotiation game, you'll be facing the notorious 'Iron Rooster,' a boss known for being tight-fisted. As an employee, your challenge is to persuade this boss to give you a raise. However, no matter how reasonable your arguments are, the 'Iron Rooster' always finds a way to reject them. Get ready with your arguments for a clever and humorous showdown!",
+				"tags": ["game", "boss", "payroll"],
+				"title": "Payroll Game"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Igroshka",
+			"createAt": "2023-12-12",
+			"homepage": "https://github.com/Igroshka",
+			"identifier": "gradio-coding",
+			"meta": {
+				"avatar": "💻",
+				"description": "Python programmer experienced with Gradio for Hugging Face.",
+				"tags": ["programming", "assistant", "python"],
+				"title": "Python Coder Gradio"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "caolixiang",
+			"createAt": "2023-12-12",
+			"homepage": "https://github.com/caolixiang",
+			"identifier": "translate-eng-expert",
+			"meta": {
+				"avatar": "🕵️",
+				"description": "Perfect Translation",
+				"tags": ["translate", "expert", "english"],
+				"title": "English Translation Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "luciouskami",
+			"createAt": "2023-12-11",
+			"homepage": "https://github.com/luciouskami",
+			"identifier": "github-copilot",
+			"meta": {
+				"avatar": "🐙",
+				"description": "GitHub Copilot",
+				"tags": ["code", "it"],
+				"title": "GitHub Copilot"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "mushan0x0",
+			"createAt": "2023-12-11",
+			"homepage": "https://github.com/mushan0x0",
+			"identifier": "pollinations-drawing",
+			"meta": {
+				"avatar": "🎨",
+				"description": "A drawing assistant that helps users enrich and optimize their descriptions and utilizes drawing abilities to display images in Markdown syntax",
+				"tags": ["drawing", "enhancement"],
+				"title": "Pollinate AI drawing"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Igroshka",
+			"createAt": "2023-12-08",
+			"homepage": "https://github.com/Igroshka",
+			"identifier": "http-request-master",
+			"meta": {
+				"avatar": "💻",
+				"description": "I support extensive customization) To work, be sure to download and enable the \"Website Crawler\" plugin!",
+				"tags": ["http-request", "http", "request", "web"],
+				"title": "HTTP Request Master"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Igroshka",
+			"createAt": "2023-12-08",
+			"homepage": "https://github.com/Igroshka",
+			"identifier": "recipe-generator",
+			"meta": {
+				"avatar": "🍳",
+				"description": "Describe the recipe, or send the name of the dish.",
+				"tags": ["kitchen", "baking", "food", "recipes", "cook"],
+				"title": "Recipe Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Igroshka",
+			"createAt": "2023-12-07",
+			"homepage": "https://github.com/Igroshka",
+			"identifier": "friend-developer",
+			"meta": {
+				"avatar": "👨‍💻",
+				"description": "Master of programming in various languages",
+				"tags": [
+					"programming",
+					"coding",
+					"consultation",
+					"friend",
+					"helper",
+					"it",
+					"it"
+				],
+				"title": "Code Wizard"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "jjy1000",
+			"createAt": "2023-12-04",
+			"homepage": "https://github.com/jjy1000",
+			"identifier": "mrfeynman",
+			"meta": {
+				"avatar": "👨",
+				"description": "Explains complex knowledge concepts in a popular way to help you understand complex knowledge concepts. It can also explain knowledge types containing answers and questions.",
+				"tags": ["General Teacher Assistant"],
+				"title": "Mr. Feynman"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "y22emc2",
+			"createAt": "2023-12-02",
+			"homepage": "https://github.com/y22emc2",
+			"identifier": "organic-chemistry-researcher",
+			"meta": {
+				"avatar": "🔬",
+				"description": "Specializes in academic translation and writing in the field of organic chemistry",
+				"tags": [
+					"organic chemistry",
+					"research",
+					"translation",
+					"writing",
+					"academic articles"
+				],
+				"title": "Organic Chemistry Researcher"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-11-22",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "js-code-quality",
+			"meta": {
+				"avatar": "🧹",
+				"description": "Dedicated to clean and elegant code refactoring",
+				"tags": ["refactoring", "code optimization", "code quality"],
+				"title": "JS Code Quality Optimization"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-11-22",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "lobe-chat-unit-test-dev",
+			"meta": {
+				"avatar": "🧪",
+				"description": "Proficient in writing frontend automation tests, especially comprehensive test coverage for TypeScript applications. Skilled in using the Vitest testing framework with a deep understanding of testing principles and strategies.",
+				"tags": ["automation testing", "testing", "lobe-chat", "frontend"],
+				"title": "LobeChat Test Engineer"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "barryWang12138",
+			"createAt": "2023-11-22",
+			"homepage": "https://github.com/barryWang12138",
+			"identifier": "q-a-helper",
+			"meta": {
+				"avatar": "😇",
+				"description": "Please provide your document content, and I will segment and clean it according to your requirements, and provide answers in a standardized format.",
+				"tags": ["q-a", "document"],
+				"title": "Q&A Document Conversion Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "mushan0x0",
+			"createAt": "2023-11-21",
+			"homepage": "https://github.com/mushan0x0",
+			"identifier": "ai-0x0-old-friends",
+			"meta": {
+				"avatar": "🤷‍♂️",
+				"description": "You can talk to me about anything. I can give you some thoughts and advice as a friend. Relax.",
+				"tags": ["Friendship", "Humor", "Authentic", "Simulation"],
+				"title": "True Friend"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "aihoom",
+			"createAt": "2023-11-17",
+			"homepage": "https://github.com/aihoom",
+			"identifier": "tik-tok-director",
+			"meta": {
+				"avatar": "🎬",
+				"description": "Designed to help users write engaging and trendy short video scripts",
+				"tags": ["short video", "tkitok", "screenwriter"],
+				"title": "Short Video Script Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "tcmonster",
+			"createAt": "2023-11-16",
+			"homepage": "https://github.com/tcmonster",
+			"identifier": "co-agent",
+			"meta": {
+				"avatar": "🧙🏾‍♂️",
+				"description": "Call on expert agents perfectly suited for the task to support your goals",
+				"tags": ["Task Guidance", "Execution Plan", "Communication", "Support"],
+				"title": "Expert Agent Mentor"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "cloverfield11",
+			"createAt": "2023-11-15",
+			"homepage": "https://github.com/cloverfield11",
+			"identifier": "fs-dev",
+			"meta": {
+				"avatar": "💻",
+				"description": "Full-stack web developer with experience in HTML, CSS, JavaScript, Python, Java, Ruby, and frameworks such as React, Angular, Vue.js, Express, Django, Next.js, Flask, or Ruby on Rails. Experience in databases, application architecture, security, and testing.",
+				"tags": [
+					"web development",
+					"front-end",
+					"back-end",
+					"programming",
+					"databases"
+				],
+				"title": "Full-stack Developer"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "yingxirz",
+			"createAt": "2023-11-15",
+			"homepage": "https://github.com/yingxirz",
+			"identifier": "graphic-creativity",
+			"meta": {
+				"avatar": "🪄",
+				"description": "Specializes in graphic creative design and graphic creativity",
+				"tags": ["graphic", "creative", "design", "graphic design"],
+				"title": "Graphic Creative Master"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "skyf0cker",
+			"createAt": "2023-11-15",
+			"homepage": "https://github.com/skyf0cker",
+			"identifier": "tailwind-wizard",
+			"meta": {
+				"avatar": "🧙",
+				"description": "Provides a UI operation to generate HTML",
+				"tags": ["Development", "Coding", "UI Design"],
+				"title": "Tailwind Wizard"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "aihoom",
+			"createAt": "2023-11-14",
+			"homepage": "https://github.com/aihoom",
+			"identifier": "big-daddy",
+			"meta": {
+				"avatar": "👨🏻‍🦳",
+				"description": "A dad who can provide comprehensive guidance to children, from daily trivial matters to work and marriage.",
+				"tags": ["Character Simulation"],
+				"title": "Dad, What Should I Do?"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "tcmonster",
+			"createAt": "2023-11-14",
+			"homepage": "https://github.com/tcmonster",
+			"identifier": "en-cn-translator",
+			"meta": {
+				"avatar": "🌐",
+				"description": "Expert in Chinese-English translation, pursuing accurate and elegant translations",
+				"tags": ["translation", "Chinese", "English"],
+				"title": "Translation Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "aihoom",
+			"createAt": "2023-11-14",
+			"homepage": "https://github.com/aihoom",
+			"identifier": "mid-journey-prompt",
+			"meta": {
+				"avatar": "🏜️",
+				"description": "Writing awesome MidJourney prompts",
+				"tags": ["mid-journey", "prompt"],
+				"title": "MidJourney Prompt"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "aihoom",
+			"createAt": "2023-11-14",
+			"homepage": "https://github.com/aihoom",
+			"identifier": "s-rtranslation",
+			"meta": {
+				"avatar": "🔬",
+				"description": "An assistant that helps you translate scientific articles",
+				"tags": ["research", "translation"],
+				"title": "Research Article Translation Assistant"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "Ruler27",
+			"createAt": "2023-11-11",
+			"homepage": "https://github.com/Ruler27",
+			"identifier": "academic-writing-eb",
+			"meta": {
+				"avatar": "📇",
+				"description": "Academic English spelling and rhetoric refinement.",
+				"tags": [
+					"proofreading",
+					"rhetoric",
+					"academic",
+					"research",
+					"English",
+					"editing"
+				],
+				"title": "Academic Writing Enhancement Bot"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-11-05",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "lobe-chat-develop-doc-writter",
+			"meta": {
+				"avatar": "📝",
+				"description": "LobeChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.",
+				"tags": [
+					"Development Documentation",
+					"Technical Introduction",
+					"next-js",
+					"react",
+					"lobe-chat"
+				],
+				"title": "LobeChat Technical Documentation Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-11-02",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "sketch-changelog-highlighter",
+			"meta": {
+				"avatar": "💠",
+				"description": "Skilled at extracting key changes from Sketch release notes",
+				"tags": [
+					"Experience Design",
+					"sketch",
+					"update",
+					"feature",
+					"text summary"
+				],
+				"title": "Sketch Feature Summary Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "cake79",
+			"createAt": "2023-10-26",
+			"homepage": "https://github.com/cake79",
+			"identifier": "tqg-20231026",
+			"meta": {
+				"avatar": "🤔",
+				"description": "Simulates people who enjoy debating and can express counterarguments to any user input",
+				"tags": ["Writing", "Dialogue"],
+				"title": "Master of Debating"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "choldrim",
+			"createAt": "2023-10-23",
+			"homepage": "https://github.com/choldrim",
+			"identifier": "graph-generator",
+			"meta": {
+				"avatar": "📊",
+				"description": "Automatic Graph Generator",
+				"tags": ["graph"],
+				"title": "Graph Generator"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "yingxirz",
+			"createAt": "2023-10-18",
+			"homepage": "https://github.com/yingxirz",
+			"identifier": "meaningful-name",
+			"meta": {
+				"avatar": "🪆",
+				"description": "Provides concise and meaningful names for your artistic creations.",
+				"tags": ["naming", "creative"],
+				"title": "Master of Naming"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "guowc3456",
+			"createAt": "2023-10-11",
+			"homepage": "https://github.com/guowc3456",
+			"identifier": "xiaohongshu-style-writer",
+			"meta": {
+				"avatar": "📕",
+				"description": "Specializes in writing in the style of popular articles on Xiaohongshu",
+				"tags": ["Xiaohongshu", "Writing", "Copywriting", ""],
+				"title": "Xiaohongshu Style Copywriter"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "宝玉",
+			"createAt": "2023-10-07",
+			"homepage": "https://twitter.com/dotey",
+			"identifier": "english-news-translator",
+			"meta": {
+				"avatar": "📰",
+				"description": "A simple Prompt greatly improves the translation quality of ChatGPT, saying goodbye to the \"machine translation feel\"",
+				"tags": ["translation", "copywriting"],
+				"title": "English News Translation Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-10-07",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "gpt-agent-prompt-improver",
+			"meta": {
+				"avatar": "🦯",
+				"description": "GPT Agent Prompt Optimization Expert. Clear, precise, concise",
+				"tags": ["prompt"],
+				"title": "GPT Agent Prompt Optimization Expert"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "dcityteg",
+			"createAt": "2023-10-06",
+			"homepage": "https://github.com/dcityteg",
+			"identifier": "c-code-development",
+			"meta": {
+				"avatar": "😀",
+				"description": "Complete C++ code",
+				"tags": ["code"],
+				"title": "C++ Code"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-10-01",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "typescript-jsdoc",
+			"meta": {
+				"avatar": "📝",
+				"title": "TS Type Definition Completion",
+				"description": "Proficient in writing Typescript JSDoc code",
+				"tags": ["typescript", "jsdoc"]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "yingxirz",
+			"createAt": "2023-09-29",
+			"homepage": "https://github.com/yingxirz",
+			"identifier": "logo-creativity",
+			"meta": {
+				"avatar": "🧚‍♀️",
+				"title": "LOGO Creative Master",
+				"description": "Organize and brainstorm creative logo ideas for you",
+				"tags": ["creative", "brainstorming", "design", "brand", "method"]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "laikedou",
+			"createAt": "2023-09-27",
+			"homepage": "https://github.com/laikedou",
+			"identifier": "swagger-api-to-types",
+			"meta": {
+				"avatar": "🔌",
+				"title": "Interface Type Request Generator",
+				"description": "Quickly export type definitions and requests from interface descriptions such as Swagger, YAPI, and API Fox",
+				"tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-11",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "naming-master",
+			"meta": {
+				"avatar": "👺",
+				"title": "Name Master",
+				"description": "Naming expert to help you create unique and meaningful names.",
+				"tags": ["Naming", "Copywriting"]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "api-docs-writer",
+			"meta": {
+				"title": "API Documentation Expert",
+				"description": "Accurately describe how to use the API, provide sample code, notes, and return value type definitions.",
+				"tags": [
+					"code",
+					"software development",
+					"programmer",
+					"documentation",
+					"writing"
+				],
+				"avatar": "📝"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "better-ux-writer",
+			"meta": {
+				"title": "UX Writer",
+				"description": "Helping you write better UX copy",
+				"tags": ["User Experience", "Designer", "Documentation", "Writing"],
+				"avatar": "✍️"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "conceptual-abstractor",
+			"meta": {
+				"title": "Master of Expressing Abstract Concepts",
+				"description": "Helping you write better UX copy",
+				"tags": [
+					"User Experience",
+					"Designer",
+					"Documentation",
+					"Writing",
+					"Metaphor",
+					"Concept"
+				],
+				"avatar": "💡"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "content-searcher",
+			"meta": {
+				"title": "Information Organizer",
+				"description": "An information organizer that helps you organize and summarize content, and manage assets",
+				"tags": ["search engine", "internet", "information organization"],
+				"avatar": "⚗"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "dva-to-zustand",
+			"meta": {
+				"avatar": "🧸",
+				"title": "Dva Refactor Zustand Expert",
+				"description": "One-click to refactor dva state management code to zustand code",
+				"tags": [
+					"typescript",
+					"code",
+					"software development",
+					"state management",
+					"dva",
+					"zustand"
+				]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "frontend-architect",
+			"meta": {
+				"title": "Front-end Development Architect",
+				"description": "Proficient in architecture, skilled in technical details, adept at searching for solutions using search engines",
+				"tags": [
+					"typescript",
+					"code",
+					"front-end",
+					"architect",
+					"networking",
+					"search-engine",
+					"information-organization"
+				],
+				"avatar": "👨‍💻"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "frontend-test-analyzer",
+			"meta": {
+				"title": "Frontend TypeScript Unit Testing Expert",
+				"description": "Consider the scenarios that need to be covered for coverage testing based on the code you provide",
+				"tags": ["typescript", "unit-testing", "code", "software-development"],
+				"avatar": "🧪"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "js-to-ts",
+			"meta": {
+				"title": "JS to TS Expert",
+				"description": "Input your JS code and get complete type definitions with just one click",
+				"tags": [
+					"typescript",
+					"js",
+					"code",
+					"frontend",
+					"software development"
+				],
+				"avatar": "🔀"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "metaphor-ux-writer",
+			"meta": {
+				"title": "UX Writer",
+				"description": "Helping you write better UX copy",
+				"tags": [
+					"User Experience",
+					"Designer",
+					"Documentation",
+					"Writing",
+					"Metaphor"
+				],
+				"avatar": "💬"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "react-cc-to-fc",
+			"meta": {
+				"title": "Convert React Class Components to Functional Components",
+				"description": "One-click to help you refactor Class components to Functional components",
+				"tags": [
+					"typescript",
+					"code",
+					"software development",
+					"react",
+					"refactor"
+				],
+				"avatar": "🎣"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "title-expansion-writer",
+			"meta": {
+				"title": "Title Expansion Expert",
+				"description": "If you need to expand a description for a title, you can let this assistant help you write the content.",
+				"tags": ["User Experience", "Designer", "Documentation", "Writing"],
+				"avatar": "✍️"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "url-summary",
+			"meta": {
+				"title": "Web Content Summarization Expert",
+				"description": "Just enter a URL, and the assistant will help you read and summarize the content of that URL.",
+				"tags": ["web", "reading", "summarization", "online"],
+				"avatar": "⚗"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-10",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "zustand-reducer",
+			"meta": {
+				"title": "Zustand Reducer Expert",
+				"description": "Proficient in writing zustand functional code, can generate reducer code from requirements with one click, familiar with reducer writing, proficient in using immer library.",
+				"tags": [
+					"typescript",
+					"reducer",
+					"code",
+					"frontend",
+					"software-development",
+					"state-management",
+					"zustand"
+				],
+				"avatar": "👨‍💻‍"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-08",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "deep-think",
+			"meta": {
+				"avatar": "🧠",
+				"description": "Deeper thinking of question",
+				"tags": ["conversation", "thinking"],
+				"title": "Deep Think"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "arvinxx",
+			"createAt": "2023-09-08",
+			"homepage": "https://github.com/arvinxx",
+			"identifier": "markdown-feature-polisher",
+			"meta": {
+				"avatar": "💅",
+				"title": "Markdown Product Feature Formatting Expert",
+				"description": "Helps you quickly generate beautiful and attractive product feature introductions",
+				"tags": ["product", "markdown", "documentation"]
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "agent-prompt-improver",
+			"meta": {
+				"title": "Agent Prompt Improver",
+				"description": "GPT Agent Prompt optimization specialist. Clear, precise, and concise",
+				"tags": ["agent", "prompt"],
+				"avatar": "🧑‍⚕️"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "business-email",
+			"meta": {
+				"avatar": "✉️",
+				"tags": ["email", "academic", "productivity"],
+				"title": "Business Email",
+				"description": "Generate a business email from recipient and other relevant information"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "character-roleplay",
+			"meta": {
+				"avatar": "🎭",
+				"tags": ["conversation", "roleplay", "fun"],
+				"title": "Character Roleplay",
+				"description": "Interact with your favourite characters from movies, TV shows, books, and more!"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "coding-wizard",
+			"meta": {
+				"avatar": "🧙‍♂️",
+				"tags": ["code", "software-development", "productivity"],
+				"title": "Coding Wizard",
+				"description": "Can generate the code for anything you specify"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "essay-improver",
+			"meta": {
+				"avatar": "🖋️",
+				"tags": ["academic", "english", "productivity", "essay"],
+				"title": "Essay Improver",
+				"description": "Improve your texts to be more elegant and professional"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "grammar-corrector",
+			"meta": {
+				"avatar": "🧐",
+				"tags": ["academic", "productivity", "essay"],
+				"title": "Grammar Corrector",
+				"description": "Correct grammar error text or paragraph. Great for essay or email"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "resume-editing",
+			"meta": {
+				"avatar": "📇",
+				"tags": ["academic", "productivity", "guide"],
+				"title": "Resume Editing",
+				"description": "Get advice on how to edit your resume"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "startup-plan",
+			"meta": {
+				"avatar": "🕓",
+				"tags": ["startup", "brainstorming", "plan"],
+				"title": "Startup Plan",
+				"description": "Generate a detailed and comprehensive business plan within minutes"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-07",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "web-development",
+			"meta": {
+				"avatar": "💻",
+				"tags": ["code", "software-development", "productivity"],
+				"title": "Web Development",
+				"description": "Generate a website react code within minute"
+			},
+			"schemaVersion": 1
+		},
+		{
+			"author": "canisminor1990",
+			"createAt": "2023-09-01",
+			"homepage": "https://github.com/canisminor1990",
+			"identifier": "stable-diffusion-prompt",
+			"meta": {
+				"title": "Stable Diffusion Prompt Expert",
+				"description": "Specializes in writing Stable Diffusion prompts",
+				"tags": ["stable-diffusion", "prompt"],
+				"avatar": "🎨"
+			},
+			"schemaVersion": 1
+		}
+	]
+}
